@@ -1,0 +1,40 @@
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Build outputs and generated files
+build/
+*/build/
+out/
+*.apk
+*.aab
+
+# Local machine and tooling files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Signing material and secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+secrets.properties
+google-services.json
+*.env
+!.env.example
+
+# Python local environments / caches for optional backends
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DEBUG BUILDS ONLY. Lets you test against ws://192.168.x.x:8000 on your own Wi-Fi.
+     The release build has no such file and therefore only allows TLS (wss://). -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
